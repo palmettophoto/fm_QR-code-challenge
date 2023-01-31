@@ -43,7 +43,7 @@ h2 {
 
 img {
     border-radius: 10px;
-    box-shadow: -5px 5px 15px grey;
+    width: 100%;
 }
 p {
     font-size: var(--project-font-size);
