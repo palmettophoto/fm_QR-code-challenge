@@ -26,8 +26,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [qr code solution](https://github.com/palmettophoto/fm_qr-code)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [qr code solution](https://github.com/palmettophoto/fm_qr-code-challenge/)
+- Live Site URL: [Add live site URL here](https://palmettophoto.github.io/fm_QR-code-challenge/)
 
 ## My process
 
