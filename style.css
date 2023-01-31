@@ -21,24 +21,22 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 
 .card {
     background-color: var(--card-bg-color);
     border-radius: 20px;
-    max-width: 22%;
-    height: 64%;
-    padding: 1%;
+    max-width: 320px;
+    padding: 1em;
     text-align: center;
-    box-shadow: -5px 5px 25px gray;
 }
 
-h2 {
+h1 {
     font-weight: var(--heading-font-weight);
-    padding: 0.5rem;
-    margin-top: 5%;
+    font-size: 15px;
+    margin: 5px 5px 0 5px;
 }
 
 img {
@@ -49,21 +47,5 @@ p {
     font-size: var(--project-font-size);
     font-weight: var(--p-font-weight);
     color: var(--p-color);
-    padding: 8%;
-}
-
-@media (max-width: 375px) {
-    .card {
-        max-width: 85%;
-        height: 61%;
-        padding: 5%;
-    }
-  
-    
-    h2 {
-        padding: 0.2%;
-    }
-    p {
-        margin-bottom: 50%;
-    }
+    margin: 5px;
 }
