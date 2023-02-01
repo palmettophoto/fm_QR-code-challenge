@@ -7,45 +7,36 @@
     font-family: Outfit;
 }
 
-:root {
-    --card-bg-color: hsl(0, 0%, 100%);
-    --p-color: hsl(220, 15%, 55%);
-    --main-bg: hsl(212, 45%, 89%);
-    --project-font-size: 15px;
-    --heading-font-weight: 700;
-    --p-font-weight: 400;
-}
-
 main {
-    background-color: var(--main-bg);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    width: 100vw;
-}
-
-.card {
-    background-color: var(--card-bg-color);
-    border-radius: 20px;
-    max-width: 320px;
-    padding: 1em;
+    background-color: hsl(212, 45%, 89%);
     text-align: center;
 }
 
-h1 {
-    font-weight: var(--heading-font-weight);
-    font-size: 15px;
-    margin: 5px 5px 0 5px;
+.card {
+    max-width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 img {
+    max-width: 100%;
     border-radius: 10px;
-    width: 100%;
 }
+
+h1 {
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+}
+
 p {
-    font-size: var(--project-font-size);
-    font-weight: var(--p-font-weight);
-    color: var(--p-color);
-    margin: 5px;
+    font-size: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+    color: hsl(220, 15%, 55%);
+    /* line-height: 1.2rem; */
 }
+
